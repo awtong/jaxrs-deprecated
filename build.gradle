@@ -31,7 +31,7 @@ dependencies {
     testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.+'
     testCompile group: 'org.mockito', name: 'mockito-core', version: '2.+'
     
-    testRuntime group: 'org.slf4j', name: 'slf4j-simple', version: '1.7.+'
+    testRuntime group: 'ch.qos.logback', name: 'logback-classic', version: '1.+'
 }
 
 task sourceJar(type: Jar) {
